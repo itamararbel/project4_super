@@ -1,0 +1,175 @@
+error	2023-01-21T21:32:45.531Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:34:09.566Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:34:17.784Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:34:22.555Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:35:26.174Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:35:44.892Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:36:36.108Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:37:17.305Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:39:47.095Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:40:33.256Z	getaddrinfo ENOTFOUND sql-server-db
+error	2023-01-21T21:47:58.973Z	getaddrinfo ENOTFOUND sql-server-db
+info	2023-01-23T18:26:57.248Z	user name exists: itamar
+error	2023-01-23T18:26:57.252Z	undefined
+info	2023-01-23T19:01:31.591Z	user name exists: itamar
+error	2023-01-23T19:01:31.598Z	undefined
+info	2023-01-23T19:06:47.935Z	user name exists: itamar
+error	2023-01-23T19:06:47.938Z	undefined
+error	2023-01-24T07:11:21.426Z	newUser._id.split is not a function
+info	2023-01-24T07:16:17.629Z	user name exists: itamar
+error	2023-01-24T07:16:17.632Z	undefined
+info	2023-01-24T07:16:42.474Z	user name exists: itamar
+error	2023-01-24T07:16:42.475Z	undefined
+info	2023-01-24T07:16:51.875Z	user name exists: itamar
+error	2023-01-24T07:16:51.876Z	undefined
+error	2023-01-24T07:24:57.710Z	undefined
+error	2023-01-24T07:25:21.949Z	undefined
+error	2023-01-24T07:29:02.900Z	undefined
+error	2023-01-24T07:29:33.085Z	undefined
+error	2023-01-24T07:33:15.610Z	undefined
+error	2023-01-24T07:37:21.276Z	undefined
+error	2023-01-24T07:37:30.586Z	undefined
+error	2023-01-24T07:38:26.056Z	undefined
+error	2023-01-24T07:40:49.156Z	undefined
+error	2023-01-24T07:42:25.317Z	undefined
+error	2023-01-24T07:44:44.353Z	undefined
+error	2023-01-24T07:46:08.425Z	undefined
+error	2023-01-24T07:46:46.628Z	undefined
+error	2023-01-24T07:49:22.186Z	undefined
+error	2023-01-24T07:52:14.207Z	undefined
+error	2023-01-24T07:52:33.135Z	undefined
+error	2023-01-24T07:53:30.703Z	undefined
+error	2023-01-24T07:53:44.830Z	undefined
+error	2023-01-24T07:54:37.578Z	undefined
+error	2023-01-24T07:56:42.065Z	undefined
+error	2023-01-24T07:59:06.270Z	undefined
+error	2023-01-24T07:59:37.518Z	undefined
+error	2023-01-24T08:00:47.213Z	undefined
+error	2023-01-24T08:00:50.920Z	undefined
+error	2023-01-24T08:00:53.479Z	undefined
+error	2023-01-24T08:03:12.859Z	undefined
+error	2023-01-24T08:03:29.569Z	undefined
+error	2023-01-24T08:03:44.968Z	undefined
+error	2023-01-24T08:04:27.463Z	undefined
+error	2023-01-24T08:04:30.569Z	undefined
+error	2023-01-24T08:06:30.878Z	undefined
+error	2023-01-24T08:06:33.881Z	undefined
+error	2023-01-24T08:07:28.435Z	undefined
+error	2023-01-24T08:09:11.146Z	undefined
+error	2023-01-24T08:15:30.264Z	undefined
+error	2023-01-24T08:16:42.013Z	undefined
+error	2023-01-24T08:18:55.471Z	undefined
+error	2023-01-24T08:19:12.812Z	undefined
+error	2023-01-24T11:03:42.324Z	undefined
+error	2023-01-24T11:15:21.356Z	undefined
+error	2023-01-24T11:56:47.385Z	undefined
+error	2023-01-24T18:18:32.072Z	undefined
+error	2023-01-24T19:16:58.974Z	Cast to embedded failed for value "{
+  _id: '',
+  idProduct: '63cd242c6ebfdf98ca0c9f3b',
+  productName: 'yellow cheese',
+  productPrice: 18,
+  qty: 1,
+  totalPrice: 18
+}" (type Object) at path "products" because of "CastError"
+error	2023-01-24T19:22:23.761Z	Cast to embedded failed for value "{
+  _id: '',
+  idProduct: '63cd242c6ebfdf98ca0c9f3b',
+  productName: 'yellow cheese',
+  productPrice: 18,
+  qty: 1,
+  totalPrice: 18
+}" (type Object) at path "products" because of "CastError"
+error	2023-01-24T19:34:31.751Z	Cast to embedded failed for value "{
+  _id: '',
+  idProduct: '63cd242c6ebfdf98ca0c9f3b',
+  productName: 'yellow cheese',
+  productPrice: 18,
+  qty: 1,
+  totalPrice: 18
+}" (type Object) at path "products" because of "CastError"
+error	2023-01-25T19:24:55.113Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-25T19:26:35.571Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-25T19:26:45.777Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-25T19:28:50.373Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-25T19:29:49.982Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-25T19:31:14.944Z	Cast to ObjectId failed for value "getClientId() {    return this.userLog.value.user_id;  }" (type string) at path "_id" for model "userS"
+error	2023-01-26T21:44:53.265Z	undefined
+info	2023-01-27T08:18:53.315Z	user name exists: null
+error	2023-01-27T08:18:53.322Z	undefined
+info	2023-01-27T08:22:54.686Z	user name exists: ffffdsaf
+error	2023-01-27T08:22:54.687Z	undefined
+info	2023-01-27T08:23:01.681Z	user name exists: ffffdsaf
+error	2023-01-27T08:23:01.684Z	undefined
+info	2023-01-27T08:27:06.953Z	user name exists: null
+error	2023-01-27T08:27:06.997Z	undefined
+info	2023-01-27T08:31:31.861Z	user name exists: null
+error	2023-01-27T08:31:31.904Z	undefined
+info	2023-01-27T08:31:46.005Z	user name exists: null
+error	2023-01-27T08:31:46.006Z	undefined
+info	2023-01-27T08:38:19.407Z	user name exists: null
+error	2023-01-27T08:38:19.450Z	undefined
+info	2023-01-27T08:39:35.721Z	user name exists: null
+error	2023-01-27T08:39:35.723Z	undefined
+info	2023-01-27T08:40:23.524Z	user name exists: null
+error	2023-01-27T08:40:23.525Z	undefined
+info	2023-01-27T08:42:50.630Z	user name exists: null
+error	2023-01-27T08:42:50.630Z	undefined
+info	2023-01-27T08:43:25.044Z	user name exists: null
+error	2023-01-27T08:43:25.045Z	undefined
+info	2023-01-27T08:46:20.292Z	user name exists: null
+error	2023-01-27T08:46:20.293Z	undefined
+info	2023-01-27T08:49:14.980Z	user name exists: null
+error	2023-01-27T08:49:14.981Z	undefined
+info	2023-01-27T08:52:35.058Z	user name exists: null
+error	2023-01-27T08:52:35.059Z	undefined
+info	2023-01-27T08:53:16.344Z	user name exists: null
+error	2023-01-27T08:53:16.345Z	undefined
+info	2023-01-27T08:54:04.009Z	user name exists: null
+error	2023-01-27T08:54:04.010Z	undefined
+info	2023-01-27T09:28:43.671Z	user name exists: null
+error	2023-01-27T09:28:43.674Z	undefined
+error	2023-01-27T12:40:59.460Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-01-27T12:41:00.829Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-01-27T12:41:04.969Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-01-27T12:41:05.521Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-01-27T12:41:05.708Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-01-27T12:41:15.288Z	undefined
+error	2023-01-27T12:41:45.862Z	undefined
+info	2023-01-27T13:31:45.210Z	user name exists: cdsa
+error	2023-01-27T13:31:45.210Z	undefined
+info	2023-01-27T13:32:13.535Z	user name exists: cdsa
+error	2023-01-27T13:32:13.537Z	undefined
+info	2023-01-27T13:36:05.790Z	user name exists: cdsa
+error	2023-01-27T13:36:05.792Z	undefined
+info	2023-01-27T13:38:37.256Z	user name exists: asdj
+error	2023-01-27T13:38:37.257Z	undefined
+info	2023-01-27T13:39:39.224Z	user name exists: asdjfdsa
+error	2023-01-27T13:39:39.225Z	undefined
+info	2023-01-27T13:39:52.824Z	user name exists: asdjfdsafdsacdac
+error	2023-01-27T13:39:52.825Z	undefined
+info	2023-01-27T13:40:10.739Z	user name exists: asdjfdsafdsacdac
+error	2023-01-27T13:40:10.739Z	undefined
+info	2023-01-27T13:41:22.825Z	user name exists: ValidationError: user_password: Path `user_password` is required.
+error	2023-01-27T13:41:22.829Z	undefined
+info	2023-01-27T13:44:39.529Z	user name exists: ValidationError: user_password: Path `user_password` is required.
+error	2023-01-27T13:44:39.537Z	undefined
+info	2023-01-27T13:47:52.151Z	user name exists: ValidationError: user_password: Path `user_password` is required.
+error	2023-01-27T13:47:52.152Z	undefined
+error	2023-01-28T19:43:06.783Z	undefined
+error	2023-01-30T11:58:19.493Z	undefined
+error	2023-01-30T11:58:21.939Z	undefined
+error	2023-01-30T11:58:23.348Z	undefined
+error	2023-01-30T11:58:24.335Z	undefined
+error	2023-01-30T11:58:25.142Z	undefined
+error	2023-01-30T11:58:25.908Z	undefined
+error	2023-01-30T11:58:32.609Z	undefined
+error	2023-01-30T12:45:37.282Z	undefined
+error	2023-01-30T19:43:33.414Z	undefined
+error	2023-01-31T19:28:39.095Z	Cast to ObjectId failed for value "0" (type string) at path "_id" for model "cartS"
+error	2023-01-31T19:28:45.370Z	Cast to ObjectId failed for value "0" (type string) at path "_id" for model "cartS"
+error	2023-01-31T20:12:59.042Z	undefined
+error	2023-02-01T09:58:47.235Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-02-01T10:57:43.924Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-02-01T10:58:23.897Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+error	2023-02-01T10:59:15.428Z	Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
