@@ -7,7 +7,6 @@ import { authentication } from "../middleWere/authentication";
 const authController = express.Router();
 
 authController.get("/test", async (request: Request, response: Response, next: NextFunction) => {
-    console.log(request.headers)
     response.status(200).json("test is working")
 })
 authController.get("/isAvailable/:email", async (request: Request, response: Response, next: NextFunction) => {
@@ -30,10 +29,8 @@ authController.get("/getOneUSer/:id", authentication, async (request: Request, r
     const id = request.params.id;
     if (jwtHundler.checkToken(authorization)) {
         try {
-            console.log("is there id ? " + id)
             response.set("Authorization", "Bearer " + await authLogic.relog(authorization));
             const resp = await authLogic.getUserByID(id)
-            console.log(resp)
             response.status(200).json(resp);
         } catch (err) {
             logger.error(err.message);
@@ -48,11 +45,9 @@ authController.get("/getOneUSer/:id", authentication, async (request: Request, r
 
 authController.post("/log", async (request: Request, response: Response, next: NextFunction) => {
     const userCreds = (request.body);
-    console.log(userCreds)
     try {
         const token = await authLogic.checkCredentials(userCreds);
         response.set('Authorization', `Bearer ${token}`);
-        console.log(token)
         response.status(200).json(token);
     } catch (err) {
         logger.error(err.message)
@@ -61,7 +56,6 @@ authController.post("/log", async (request: Request, response: Response, next: N
 }
 )
 authController.get("/reLog", async (request: Request, response: Response, next: NextFunction) => {
-    console.log("??")
     const authorization = await request.header("Authorization").split(" ")[1];
     if (jwtHundler.checkToken(authorization)) {
         try {

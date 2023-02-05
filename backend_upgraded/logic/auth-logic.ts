@@ -1,7 +1,6 @@
 import { NextFunction } from 'express';
 import { OkPacket } from "mysql";
 import config from "../config";
-import dal from "../dal/dal";
 import user_modal from "../modal/clientModal";
 import { client_error } from "../modal/client_error";
 import jwtHundler from "../util/jwtHundler";

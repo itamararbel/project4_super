@@ -8,6 +8,8 @@ import logger from "../util/errorsLogger";
 
 const cartsController = express.Router();
 
+
+
 cartsController.get("/create/:id", authentication, async (request: Request, response: Response, next: NextFunction) => {
     
     const id = request.params.id;
@@ -16,6 +18,8 @@ cartsController.get("/create/:id", authentication, async (request: Request, resp
         resp= await cartsLogic.createNewCart(id);
     }catch(err){
         logger.error(err);
+        next(err);
+
     }
     response.status(200).json(resp)
 })
@@ -28,6 +32,8 @@ cartsController.get("/all/:id", authentication, async (request: Request, respons
         resp=await cartsLogic.getAllCarts(id);
     } catch(err){
         logger.error(err);
+        next(err);
+
     }
     
     response.status(200).json(resp)
@@ -44,12 +50,12 @@ cartsController.post("/postBuy", authentication, async (request: Request, respon
     delete order._id
     if (jwtHundler.getUser(request.header("Authorization").split(" ")[1]).user.user_id === order.idClient) {
         let resp: orderModal
-        console.log(order);
         try {
             resp = await cartsLogic.postPurchase(order)
             response.status(201).json(resp);
         } catch (err) {
             console.log(err);
+            next(err);
         }
 
     } else {
@@ -57,7 +63,7 @@ cartsController.post("/postBuy", authentication, async (request: Request, respon
     }
 })
 
-cartsController.get("/numberOFBuys/", async (request: Request, response: Response, next: NextFunction) => {
+cartsController.get("/numberOfBuys/", async (request: Request, response: Response, next: NextFunction) => {
     let resp: number;
     try {
         resp = await cartsLogic.numberOFBuys()
